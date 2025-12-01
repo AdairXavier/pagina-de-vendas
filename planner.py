@@ -30,7 +30,7 @@ with col1:
 
     **Recursos Principais:**
     - **Módulos Essenciais**: Aprenda a usar o dinheiro a seu favor.
-    - **Visualização de Dados**: FeedBack: tipos, objetivo e importancia.
+    - **Visualização **:  tipos, objetivo e importancia.
     - **Implantação Simples**: Guia passo a passo para colocar sua aplicação em pratica.
     - **Melhores Práticas**: Dicas e como ter controle do seu dinheiro.
     """)
@@ -42,7 +42,7 @@ with col2:
 
 # --- 7. Preços e Promoções ---
 st.header("Preço e Oferta Especial")
-st.markdown("~~R$ 987,00~~")
+st.markdown("### ~~R$ 987,00~~")
 st.markdown("## **R$ 592,20** por tempo limitado!")
 st.markdown("Aproveite o desconto de lançamento de **40%**!")
 st.markdown("---")
@@ -69,11 +69,11 @@ with st.container(border=True):
 
 with st.container(border=True):
     st.markdown("**⭐ 5 Estrelas!**")
-    st.markdown("> *\"Conteúdo direto ao ponto e cheio de exemplos práticos. , após o uso do planner, consegui "colocar ordem na casa", evitar dívidas e até mesmo sair do vermelho, graças a um melhor controle financeiro.!\"* - **Bruno F.**, Desenvolvedor.")
+    st.markdown("> *\"Conteúdo direto ao ponto e cheio de exemplos práticos. , após o uso do planner, consegui colocar ordem na casa, evitar dívidas e até mesmo sair do vermelho, graças a um melhor controle financeiro.!\"* - **Bruno F.**, Desenvolvedor.")
 
-with st.container(border=true):
-st.markdown("**⭐ 5 Estrelas!**")
-st.markdown("> *\"Controle de Gastos e Redução de Desperdícios, a eficácia do planner em ajudar a controlar gastos supérfluos e a reduzir desperdícios, o que leva a uma economia real no final do mês.!\"* - **Adair JS Xavier.**, Dev juninho.")
+with st.container(border=True):
+    st.markdown("**⭐ 5 Estrelas!**")
+    st.markdown("> *\"Controle de Gastos e Redução de Desperdícios, a eficácia do planner em ajudar a controlar gastos supérfluos e a reduzir desperdícios, o que leva a uma economia real no final do mês.!\"* - **Adair JS Xavier.**, Dev juninho.")
 
 # --- 5. Formulário de Contato ---
 st.header("Fale Conosco")
