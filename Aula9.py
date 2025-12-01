@@ -8,9 +8,9 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# --- Estilo (Streamlit nativo é limpo e moderno, mas podemos adicionar um toque) ---
-# O Streamlit é responsivo por padrão. O layout="wide" ajuda em telas maiores.
-# Usarei containers e colunas para um design mais estruturado.
+# --- Estilo (nativo, limpo e moderno.) ---
+# O planner é didatico, detalhado e intuitivo.
+# este planner exclusivo oferece ferramentas poderosa.
 
 # --- 1. Título Chamativo ---
 st.title("🚀 **Domine suas finanças: O Guia Definitivo para Aplicações no seu dia a dia**")
@@ -25,14 +25,14 @@ col1, col2 = st.columns([2, 1])
 
 with col1:
     st.markdown("""
-    Este e-book/curso é o seu mapa completo para construir e garantie seu futuro financeiro dashboards e aplicações de diarias usando apenas caneta o planner e sua disposição.
+    Este e-book/curso é o seu mapa completo para construir e garantir seu futuro financeiro e aplicações de diarias usando apenas caneta o planner e sua disposição.
     Com esse planner, o poder dos seus mimos está a uma `pagina` de distância.
 
     **Recursos Principais:**
-    - **Módulos Essenciais**: Aprenda a usar os widgets mais importantes.
-    - **Visualização de Dados**: Integre bibliotecas como Matplotlib, Plotly e Altair.
-    - **Implantação Simples**: Guia passo a passo para colocar sua aplicação no ar.
-    - **Melhores Práticas**: Dicas de performance e design para apps incríveis.
+    - **Módulos Essenciais**: Aprenda a usar o dinheiro a seu favor.
+    - **Visualização de Dados**: FeedBack: tipos, objetivo e importancia.
+    - **Implantação Simples**: Guia passo a passo para colocar sua aplicação em pratica.
+    - **Melhores Práticas**: Dicas e como ter controle do seu dinheiro.
     """)
 
 with col2:
@@ -42,9 +42,9 @@ with col2:
 
 # --- 7. Preços e Promoções ---
 st.header("Preço e Oferta Especial")
-st.markdown("~~R$ 297,00~~")
-st.markdown("## **R$ 97,00** por tempo limitado!")
-st.markdown("Aproveite o desconto de lançamento de **67%**!")
+st.markdown("~~R$ 987,00~~")
+st.markdown("## **R$ 592,20** por tempo limitado!")
+st.markdown("Aproveite o desconto de lançamento de **40%**!")
 st.markdown("---")
 
 # --- 4. Botões de Ação (CTA) ---
@@ -53,7 +53,7 @@ if st.button("Comprar Agora e Acessar Imediatamente!", use_container_width=True,
     st.success("Redirecionando para a página de checkout... (Link simulado)")
     # Link real seria: st.markdown("[Clique aqui para Comprar](SUA_URL_DE_CHECKOUT)")
 
-if st.button("Saiba Mais (Download do Conteúdo Programático)", use_container_width=True):
+if st.button("Saiba Mais (Conteúdo Programático)", use_container_width=True):
     st.info("Baixando o conteúdo programático... (Ação simulada)")
     # Ação real seria: st.markdown("[Clique aqui para Baixar](SUA_URL_DO_PDF)")
 
@@ -65,19 +65,20 @@ st.header("O Que Nossos Clientes Dizem")
 # Usando um container para agrupar os testemunhos
 with st.container(border=True):
     st.markdown("**⭐ 5 Estrelas!**")
-    st.markdown("> *\"Eu estava lutando para compartilhar meus modelos de Machine Learning. O Guia Streamlit me deu a solução mais rápida e elegante! Recomendo!\"* - **Ana C.**, Cientista de Dados.")
+    st.markdown("> *\"Simplicidade e Praticidade: Mesmo para quem não tem muito tempo, a simplicidade de uso do planner é um ponto positivo, facilitando a criação de um hábito de controle financeiro diário. O Guia financeiro me deu a solução mais rápida e elegante! Recomendo!\"* - **Ana C.**, Dona do studio Mulher Bela.")
 
 with st.container(border=True):
     st.markdown("**⭐ 5 Estrelas!**")
-    st.markdown("> *\"Conteúdo direto ao ponto e cheio de exemplos práticos. Meu primeiro app Streamlit foi ao ar em menos de um dia!\"* - **Bruno F.**, Desenvolvedor Python.")
-
-st.markdown("---")
+    st.markdown("> *\"Conteúdo direto ao ponto e cheio de exemplos práticos. , após o uso do planner, consegui "colocar ordem na casa", evitar dívidas e até mesmo sair do vermelho, graças a um melhor controle financeiro.!\"* - **Bruno F.**, Desenvolvedor.")
+with st.container(border=true):
+st.markdown("**⭐ 5 Estrelas!**")
+st.markdown("> *\"Controle de Gastos e Redução de Desperdícios, a eficácia do planner em ajudar a controlar gastos supérfluos e a reduzir desperdícios, o que leva a uma economia real no final do mês.!\"* - **Adair JS Xavier.**, Dev juninho.")
 
 # --- 5. Formulário de Contato ---
 st.header("Fale Conosco")
 st.write("Tem alguma dúvida antes de comprar? Envie-nos uma mensagem!")
 
-# O formulário Streamlit é simples, mas funcional
+# O formulário é simples, mas funcional
 with st.form("form_contato"):
     nome = st.text_input("Seu Nome")
     email = st.text_input("Seu Melhor Email")
@@ -94,4 +95,4 @@ with st.form("form_contato"):
 st.markdown("---")
 
 # --- Rodapé ---
-st.caption("© 2025 Guia Streamlit. Todos os direitos reservados. | Política de Privacidade")
+st.caption("© 2025 Domine suas finanças. Guia definitivo para finanças: Luiza Xavier. Todos os direitos reservados. | Política de Privacidade")
