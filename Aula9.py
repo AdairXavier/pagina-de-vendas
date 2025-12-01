@@ -70,6 +70,7 @@ with st.container(border=True):
 with st.container(border=True):
     st.markdown("**⭐ 5 Estrelas!**")
     st.markdown("> *\"Conteúdo direto ao ponto e cheio de exemplos práticos. , após o uso do planner, consegui "colocar ordem na casa", evitar dívidas e até mesmo sair do vermelho, graças a um melhor controle financeiro.!\"* - **Bruno F.**, Desenvolvedor.")
+
 with st.container(border=true):
 st.markdown("**⭐ 5 Estrelas!**")
 st.markdown("> *\"Controle de Gastos e Redução de Desperdícios, a eficácia do planner em ajudar a controlar gastos supérfluos e a reduzir desperdícios, o que leva a uma economia real no final do mês.!\"* - **Adair JS Xavier.**, Dev juninho.")
