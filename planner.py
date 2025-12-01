@@ -30,7 +30,7 @@ with col1:
 
     **Recursos Principais:**
     - **Módulos Essenciais**: Aprenda a usar o dinheiro a seu favor.
-    - **Visualização **:  tipos, objetivo e importancia.
+    - **Visualização**:  tipos, objetivo e importancia.
     - **Implantação Simples**: Guia passo a passo para colocar sua aplicação em pratica.
     - **Melhores Práticas**: Dicas e como ter controle do seu dinheiro.
     """)
@@ -42,8 +42,8 @@ with col2:
 
 # --- 7. Preços e Promoções ---
 st.header("Preço e Oferta Especial")
-st.markdown("### ~~R$ 987,00~~")
-st.markdown("## **R$ 592,20** por tempo limitado!")
+st.markdown("### ~~R$ 183,17~~")
+st.markdown("## **R$ 109,90** por tempo limitado!")
 st.markdown("Aproveite o desconto de lançamento de **40%**!")
 st.markdown("---")
 
